@@ -1,0 +1,20 @@
+@media(max-width:768px)
+{
+    #bars{
+        display: block;
+    }
+        .nav-social-links{
+            display: none;
+        }
+                .nav-menu-links a{
+                    display: none;
+                }
+                #select-custom{
+                    display: block;
+                    margin: 0 20px;
+                }
+                nav{
+                    display: flex;
+                    justify-content: space-between;
+                }
+}
