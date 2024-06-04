@@ -38,6 +38,7 @@ margin: 0 15px;
 
 
 }
+
 #bars{
    
     width: 20px;
@@ -60,6 +61,10 @@ main{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+        
    
 }
 form{
@@ -74,12 +79,7 @@ form{
    
     
 }
-main{
-    display: flex;
-    align-items: center;
 
-    justify-content: center;
-}
 input{
     display: block;
     padding: 10px 15px;
@@ -95,6 +95,10 @@ div{
 }
 input[type="submit"]{
     width: 100%;
+    padding: 15px 0;
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: serif;
 }
 input[type="submit"]:hover{
     cursor: pointer;
