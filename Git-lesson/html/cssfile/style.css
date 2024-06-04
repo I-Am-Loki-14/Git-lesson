@@ -8,7 +8,8 @@
 
 header{
     background-color: goldenrod;
-    width: 100vw;
+    
+    
     height: 100vh;
     position: relative;
 }
@@ -28,6 +29,8 @@ nav{
    display: flex;
    justify-content: space-between;
    padding:50px;
+position: sticky;
+top: 0;
 
 }
 .nav-links a{
@@ -53,9 +56,10 @@ h1{
 }
 h2{
     padding: 20px 0;
+    text-align: center;
 }
 main{
-    width: 100vw;
+    
     height:100vh;
     background: url(../image/imgs/pexels-soldiervip-1382726.jpg);
     background-size: cover;
@@ -64,7 +68,7 @@ main{
     display: flex;
     align-items: center;
     justify-content: center;
-        
+   
    
 }
 form{
