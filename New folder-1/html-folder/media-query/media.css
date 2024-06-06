@@ -1,0 +1,15 @@
+@media(max-width:750px)
+{
+    #bars{
+            display: block;
+    }
+        .nav-social-links{
+            display: none;
+        }
+                .na-HAC-links a{
+                    display: none;
+                }
+                nav{
+                    background-color: palevioletred;
+                }
+}
