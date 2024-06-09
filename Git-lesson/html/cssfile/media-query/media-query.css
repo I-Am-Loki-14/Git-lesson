@@ -8,21 +8,27 @@
         nav{
             padding: 0 35px;
         }
-           .nav-links a {
-               background-color:greenyellow;
-               padding: 12px 12px;
-               border-radius: 8px;
-               margin: 0 15px;
-            display: none;}
 
-            h1{
-                display: block;
-                color: aquamarine;
-                
-                text-align: center;
-                line-height: 150px;
-            }
-                        
+        .nav-links a{
+            display: block;
+            margin: 10px 0;
+            text-align: center;
+           
+        }
+        .nav-links{
+            background-color:#3572EF;
+            padding: 10px 100px;
+            position: absolute;
+            top: 150px;
+            left: 0;right: 0;
+            transform: translatex(-150%);
+            transition: 0.8s;
+        }
+ .show{
+    transform: translate(0%);
+ }
+        
+               
 }
 @media(max-width:800px){
 
