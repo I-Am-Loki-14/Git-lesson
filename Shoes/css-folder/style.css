@@ -8,14 +8,15 @@
 :root{
     --primary-color:#DDE2E6;
     --background-color:#BBBFCA;
-    --black-color:#2222;
+    --black-color:#222;
     --white-color:#FFFF;
     --color:#495464;
+    --font-family:Arial,Helvetica,sans-serif;
 }
 section{
     width: 100%;
     min-height: 100vh;
-    padding: 0 90px;
+    padding: 0 100px;
     background-color:var(--background-color);
     display: flex;
     justify-content: space-between;
@@ -23,62 +24,171 @@ section{
     text-align: center;
     flex-wrap: wrap;
 }
-div{
-    
- 
-    /* border-radius: 8px; */
+
+/* This is Shop.com */
+
+.mother{
+    /* background-color: palevioletred; */
+    padding: 20px 30px;
+    margin: 20px 0px;
 }
-
-/* This is Shoe's section  */
-
-
-
-.Shoe{
-  
-    background-color: var(--primary-color);
-    background-color: #E8EDF1;
-    width: 230px;
-    border-radius:2px solid rgb(0,0,0,0.1);
+#section-a{
+    width: 250px;
+    border-radius: 8px ;
+    box-shadow: 0 0 20px black;
+    padding: 0px 0px;
+    background-color: #FFFFFF;
     
-    text-align: center;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.705);
-    border-radius: 10px;
+    
 }
-#img-shoe{
+img{
     width: 100%;
-    
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-   
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
 }
-.Shoe h2 {
-    margin: 10px 0;
+p{
+    padding: 12px 0px;
+    /* background-color: cyan; */
 }
-.shoe-buy{
-   
-    background-color:var(--color);
+h1,h2{
+    padding: 10px 0;
+}
+.buy-1{
+background-color:#0059A3;
+padding: 15px 0;
+border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
     color: var(--white-color);
-width: 100%;
-    padding: 15px 20px;
-    border-bottom-left-radius:10px ;
-    border-bottom-right-radius: 10px;
-    font-family: Arial, Helvetica, sans-serif;
-   
+    font-family: var(--font-family);
 }
 
-.Shoe:hover{
+/* This is earbud  */
+#section-b {
+    width: 250px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px black;
+    padding: 0px 0px;
+    background-color:#67707F;
 
-    
-  background-color: #BBBFCA;
-  transition: 0.9s;
-    
+
 }
-.Shoe h2:hover{
-    color: blue;
-    transition: 0.9s;
+
+img {
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+p {
+    padding: 12px 0px;
+    /* background-color: cyan; */
+}
+
+h1,
+h2 {
+    padding: 10px 0;
+}
+
+.buy-2 {
+    background-color:#7a839a;
+    padding: 15px 0;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    color: var(--white-color);
+    font-family: var(--font-family);
+}
+
+/* This is earbud  */
+#section-c {
+    width: 250px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px black;
+    padding: 0px 0px;
+    background-color: #F1F6F3;
+
+
+}
+
+img {
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+p {
+    padding: 12px 0px;
+    /* background-color: cyan; */
+}
+
+h1,
+h2 {
+    padding: 10px 0;
+}
+
+.buy-3 {
+    background-color:#EFCBC6;
+    padding: 15px 0;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    color: var(--white-color);
+    font-family: var(--font-family);
+}
+
+/* This is mobile phone  */
+
+#section-d {
+    width: 250px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px black;
+    padding: 0px 0px;
+    background-color: #FFFFFF;
+
+
+}
+img {
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+p {
+    padding: 12px 0px;
+    /* background-color: cyan; */
+}
+h1,
+h2 {
+    padding: 10px 0;
+}
+.buy-4 {
+    background-color: #5F3A20;
+    padding: 15px 0;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    color: var(--white-color);
+    font-family: var(--font-family);
 }
 
 
+/* Hover Effects  */
+.buy-1:hover{
+    background-color:#0167ba ;
+    transition: 0.5s;
+    color:var(--black-color);
+}
+.buy-2:hover {
+    background-color: #828a9f;
+    color: var(--black-color);
+    transition: 0.5s;
+}
+.buy-3:hover {
+  background-color: #f6dedb;
+  color: var(--black-color);
+  transition: 0.5s;
+}
+.buy-4:hover {
+  background-color: #7e4d2a;
+  color: var(--black-color);
+  transition: 0.5s;
+}
 
 
 
