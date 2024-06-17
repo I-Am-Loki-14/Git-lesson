@@ -1,0 +1,157 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+:root{
+   --background-color: #CAF4FF;
+   --white-color:#ffff;
+   --black-color:#2222;
+   --color:#ffff;
+   --secondary-color:#A0DEFF;
+   --primary-color:#5AB2FF;
+
+}
+
+nav{
+    height: 90px;
+    /* background-color: var(--background-color); */
+    background-color: #cdeef66d;
+    position:fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 60px;
+    
+}
+.social-links a{
+  
+    text-align: center;
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin: 10px 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+
+
+#bars{
+   display: none;
+   font-size: 1.5rem;
+}
+.show{
+   transform: translate(0%);
+  
+}
+/* .social-links{
+    position: absolute;
+    top: 100px;
+    left: 0;
+    right: 0;
+    
+    background-color: black;
+} */
+.section-a{
+      width: 100%;
+      height: 100vh;
+      background-color: yellow;
+      background: url(../image-folder/Hotel-1.jpg);
+      background-position: center;
+      background-size: cover;
+      background-attachment: fixed;
+      color: var(--color);
+    }
+     
+.home{
+    width: 100%;
+        height: 100vh;
+        background-color: green;
+        background: url(../image-folder/Hotel-2.jpg);
+            background-position: center;
+            background-size: cover;
+            background-attachment: fixed;
+            display: flex;
+                align-items: center;
+                justify-content: space-around;
+                flex-wrap: wrap;
+                    gap: 50px;
+            
+}
+
+.home-image{
+    width: 350px;
+    height: 250px;
+    /* background-color: pink; */
+    padding: 10px 10px;
+    cursor: pointer;
+}
+.home-image img{
+    border-radius: 10px;
+    box-shadow: 20px 20px 20px black;
+}
+.home-description{
+    width: 400px;
+        height: 200px;
+        /* background-color: #C4AA91; */
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.2rem;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+            align-items: center;
+            border-radius: 10px;
+            border: 1px solid black;
+            backdrop-filter: blur(3px);
+            color: #fff;
+}
+
+.about {
+    width: 100%;
+    height: 100vh;
+    background-color: red;
+    background: url(../image-folder/Hotel-4.jpg);
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+}
+.service {
+    width: 100%;
+    height: 100vh;
+    background-color: blue;
+    background: url(../image-folder/Hotel-5.jpg);
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+}
+.contact{
+    width: 100%;
+    height: 100vh;
+    background-color: blue;
+    background: url(../image-folder/hotel-6.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* Hover Effect  */
+.social-links a:hover{
+    background-color: rgba(28, 28, 238, 0.634);
+    transition: 0.5s;
+    box-shadow: 10px 10px #2222;
+    color: var(--white-color);
+    
+}
+
+.second-social-links a:hover{
+    background-color: rgba(28, 28, 238, 0.634);
+        transition: 0.5s;
+        box-shadow: 10px 10px  #2222;
+        color: var(--white-color);
+}
